@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: gray;
+}
+
+button{
+    padding: 10px;
+    background-color: limegreen;
+    position: relative;
+    top: 100px;
+    color: white;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+button:hover{
+    transition: 0.50s;
+    transform: scale(1.1)
+}
+
+body .sifreOlustur{
+    height: 200px;
+    width: 400px;
+    background-color: white;
+    position: relative;
+    bottom: 300px;
+    border-radius: 20px;
+}
+
+body .sifreOlustur i{
+    background-color: green;
+    padding: 20px;
+    position: relative;
+    top: 20px;
+    color: white;
+    border-radius: 50px;
+}
